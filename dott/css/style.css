@@ -578,7 +578,7 @@ audio, canvas, embed, iframe, img, object, svg, video {
     box-shadow: 0 6px 18px rgb(0 0 0 / 8%);
 }
 .business-solution-list-item .solution-list-text {
-    padding: 3rem;
+    padding: 2rem;
 }
 .business-solution-list-item .solution-list-text h2 {
     font-size: 28px;
@@ -589,7 +589,7 @@ audio, canvas, embed, iframe, img, object, svg, video {
     font-size: 16px;
     font-weight: 600;
     line-height: 24px;
-    height: 60px;
+    height: 238px;
 }
 .business-solution-list-item .solution-list-text .know-more-btn {
     font-size: 18px;
