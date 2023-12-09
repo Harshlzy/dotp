@@ -824,6 +824,9 @@ audio, canvas, embed, iframe, img, object, svg, video {
     background-color: #000000;
     margin-top: 180px;
 }
+.peco{
+    color:#f1f1f1;padding-left: 120px;
+}
 .explore-categories .title {
     font-size: 56px;
     font-weight: bold;
@@ -3431,6 +3434,9 @@ audio, canvas, embed, iframe, img, object, svg, video {
     .business-solution-list-item .solution-list-text p {
         height: 80px;
     }
+    .peco{
+        padding-left: 50px;
+    }
     .explore-categories .title {
         font-size: 46px;
         padding-left: 50px;
@@ -3752,6 +3758,9 @@ audio, canvas, embed, iframe, img, object, svg, video {
     }
     .explore-categories .title {
         width: 100%;
+        padding-left: 40px;
+    }
+    .peco{
         padding-left: 40px;
     }
     .explore-categories .categories-image-block .bottom-img .part-one-image {
@@ -4501,6 +4510,9 @@ audio, canvas, embed, iframe, img, object, svg, video {
         padding-top: 10px;
         padding-bottom: 30px;
         font-weight: bold;
+    }
+    .peco{
+        padding-left: 30px;
     }
     .work-all-types-mobile {
         background-color: #F8F8F8;
