@@ -575,6 +575,7 @@ audio, canvas, embed, iframe, img, object, svg, video {
     border: 1px solid #dedede;
     border-radius: 1.5rem;
     margin: 0 1rem 2.5rem;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
 }
 .business-solution-list-item a {
     color: #000000;
@@ -610,6 +611,7 @@ audio, canvas, embed, iframe, img, object, svg, video {
 .business-solution-list-item .solution-list-img img {
     border-bottom-left-radius: 1.5rem;
     border-bottom-right-radius: 1.5rem;
+    width:100%;
 }
 .work-all-types-section {
     background-color: #f8f8f8;    box-shadow: 0 1rem 3rem rgba(0,0,0,.175)!important;
@@ -5586,15 +5588,14 @@ audio, canvas, embed, iframe, img, object, svg, video {
         padding-top: 250px;
     }
     .updated-index-wrap-text h1 {
-        font-size: 43px!important;
-        line-height: 43px;
-        padding: 0 0.5rem;
-        font-weight: 700!important;
+        font-size: 54px!important;
+    line-height: 43px;
+    padding: 0 0.5rem;
     }
     .index-hero-features {
         width: 100%;
         margin: 1.5rem auto 1rem;
-        padding: 0 2.5rem;
+        padding: 0 1rem;
         opacity: 0.5;
     }
     .index-hero-features ul li {
