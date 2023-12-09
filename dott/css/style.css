@@ -392,9 +392,6 @@ audio, canvas, embed, iframe, img, object, svg, video {
     width: 100%;
     z-index: 2;
 }
-.main-header .navbar-brand img {
-    width: 100px;
-}
 .main-header.sticky-header {
     box-shadow: rgb(0 0 0 / 4%) 0px 3px 8px;
 }
@@ -825,7 +822,7 @@ audio, canvas, embed, iframe, img, object, svg, video {
     margin-top: 180px;
 }
 .peco{
-    color:#f1f1f1;padding-left: 120px;
+    color:#ffffff;padding-left: 120px;
 }
 .explore-categories .title {
     font-size: 56px;
@@ -5566,7 +5563,7 @@ audio, canvas, embed, iframe, img, object, svg, video {
         display: none;
     }
     .main-header .navbar.nav-v1 {
-        padding: 1rem;
+        padding: 0rem 1rem;
     }
     .main-header .top-bar {
         background-color: #ffffff;
