@@ -491,7 +491,7 @@ $(document).ready(function () {
     function checkScreenSize(){
         var newWindowWidth = $(window).width();
         if (newWindowWidth < 767) {
-            $('.main-header .top-bar-mobile .navbar-brand img').attr("src","./imgs/logo.svg");
+            $('.main-header .top-bar-mobile .navbar-brand img').attr("src","./imgs/weblozy.png");
         } 
     }
     // End change navbar design on mobile view
