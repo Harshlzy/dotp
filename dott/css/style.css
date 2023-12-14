@@ -1,3 +1,4 @@
+
 @font-face {
     font-family: 'Gilroy';
     src: url('../fonts/Gilroy-Light.woff2') format('woff2'),
@@ -6,6 +7,7 @@
     font-style: normal;
     font-display: swap;
 }
+@import url(../webfonts/fa-solid-900.woff2);
 @font-face {
     font-family: 'Gilroy';
     src: url('../fonts/Gilroy-Bold.woff2') format('woff2'),
@@ -388,7 +390,7 @@ audio, canvas, embed, iframe, img, object, svg, video {
 } */
 .main-header .navbar {
     position: relative;
-    padding: 0.75rem 3rem;
+    /* padding: 0.75rem 3rem; */
     width: 100%;
     z-index: 2;
 }
@@ -2857,14 +2859,14 @@ audio, canvas, embed, iframe, img, object, svg, video {
     padding-top: 280px;
 }
 .up-hero-section-wrap .hero-section {
-    height: 1350px;
+    height: 1244px;
     padding-top: 230px;
 }
 .h-1250 {
     height: 1250px;
 }
 .up-1350 {
-    height: 1350px;
+    height: 1266px;
 }
 
 .request-demo-modal .modal-body {
