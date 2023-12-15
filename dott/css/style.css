@@ -13,13 +13,16 @@
 .reason-belief-panel.activated .reason-belief-image-tile:hover{
     background-image: none;
 }
+@media screen and (min-width:768px){
+    .rtext p{
+        font-size: 1.5rem;
+    }
+}
+@media screen and (min-width:992px){
 .rtext{
     position: absolute;
     bottom: 12%;
-}
-.rtext p{
-    font-size: 1.5rem;
-}
+}}
 .rtext h3{
     font-size: 2.5rem;
     line-height: 1.2;
@@ -1600,9 +1603,7 @@ audio, canvas, embed, iframe, img, object, svg, video {
     opacity: 0.6;
     margin-bottom: 2rem;
 }
-.drive-with-dotpe .carousel-indicators {
-    width: 80%;
-}
+
 .retail-business-categories {
     position: relative;
     width: 100%;
@@ -6156,54 +6157,7 @@ li.accordion-item.acc-item-4 .accordion-bg {
     overflow: hidden;
     margin: 0 auto;
 }
-.carousel-indicators  {
-    position: relative;
-    top: 0;
-    bottom: 0;
-    justify-content: space-between;
-    background-color: #f2f2f2;
-    padding: 0.5rem;
-    border-radius: 100px;
-    width: 65%;
-    margin: 0 auto 4rem;
-}
-.carousel-indicators .inner {
-    position: relative;
-    background-color: #f2f2f2;
-    padding: .5rem;
-    border-radius: 100px;
-}
-.carousel-indicators li {
-    width: auto;
-    height: auto;
-    text-indent: unset;
-    background-color: transparent;
-    cursor: pointer;
-}
-.carousel-indicators li:last-child {
-    margin-right: .5rem;
-}
-.carousel-indicators li span {
-    display: inline-block;
-    height: 50px;
-    line-height: 50px;
-    font-size: 16px;
-    font-weight: 600;
-    padding: 0 1rem;
-}
-.carousel-indicators li.active span {
-    background: #ffffff;
-    border-radius: 100px;
-    font-weight: 800;
-    -moz-box-shadow: 0 3px 5px #ccc;
-    -webkit-box-shadow: 0 3px 5px #ccc;
-    -o-box-shadow: 0 3px 5px #ccc;
-    -ms-box-shadow: 0 3px 5px #ccc;
-    box-shadow: 0 3px 5px #ccc;
-}
-.carousel-indicators .active {
-    background: transparent;
-}
+
 .custom-info-slider .carousel-item-inner {
     position: relative;
     padding: 3rem;
@@ -6211,6 +6165,15 @@ li.accordion-item.acc-item-4 .accordion-bg {
     height: 650px;
     width: 100%;
     overflow: hidden;
+}
+@media screen and (max-width:768px){
+    .cos-img{
+        width: 100%!important;
+    }
+}
+
+.carousel-caption div p{
+    font-size: 1.2em;
 }
 .custom-info-slider .carousel-item-inner .bg-video-block {
     position: absolute;
