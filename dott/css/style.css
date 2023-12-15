@@ -1,4 +1,32 @@
-
+.image-tile0:hover{
+    background-image: linear-gradient(rgba(255, 255, 255, 0) 0%, rgb(95, 52, 168) 100%), url(./imgs/img1.jpeg)!important;
+}
+.image-tile1:hover{
+    background-image: linear-gradient(rgba(0, 0, 0, 0) 0%, rgb(95, 52, 168) 100%), url(./imgs/img2.jpeg)!important;
+}
+.image-tile2:hover{
+    background-image: linear-gradient(rgba(0, 0, 0, 0) 0%, rgb(95, 52, 168) 100%), url(./imgs/img3.jpeg)!important;
+}
+.image-tile3:hover{
+    background-image: linear-gradient(rgba(0, 0, 0, 0) 0%, rgb(95, 52, 168) 100%), url(./imgs/img4.jpeg)!important;
+}
+.reason-belief-panel.activated .reason-belief-image-tile:hover{
+    background-image: none;
+}
+.rtext{
+    position: absolute;
+    bottom: 12%;
+}
+.rtext p{
+    font-size: 1.5rem;
+}
+.rtext h3{
+    font-size: 2.5rem;
+    line-height: 1.2;
+}
+div.third{
+background-color: black ;
+}
 @font-face {
     font-family: 'Gilroy';
     src: url('../fonts/Gilroy-Light.woff2') format('woff2'),
@@ -487,7 +515,7 @@ audio, canvas, embed, iframe, img, object, svg, video {
     font-family: 'Gilroy';
     font-size: 26px;
     font-weight: 500;
-    margin-bottom: 1rem;
+    margin-bottom: 3rem;
     color: #ffffff;
 }
 .hero-img-block .img-sec {
@@ -597,7 +625,7 @@ audio, canvas, embed, iframe, img, object, svg, video {
     font-size: 16px;
     font-weight: 600;
     line-height: 24px;
-    height: 238px;
+    height: 328px;
 }
 .business-solution-list-item .solution-list-text .know-more-btn {
     font-size: 18px;
@@ -2859,8 +2887,8 @@ audio, canvas, embed, iframe, img, object, svg, video {
     padding-top: 280px;
 }
 .up-hero-section-wrap .hero-section {
-    height: 1114px;
-    padding-top: 180px;
+    height: 1244px;
+    padding-top: 230px;
 }
 .h-1250 {
     height: 1250px;
