@@ -11,13 +11,22 @@
     <link rel="stylesheet" href="./css/animate.css">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/aos.css" >
     <link rel="stylesheet" href="./css/1.css">
     <link rel="stylesheet" href="./css/2.css">
     <link rel="stylesheet" href="./css/3.css">
     <link rel="stylesheet" href="./css/4.css">
     <link rel="stylesheet" href="./css/5.css">
+    
     <style>
-        .fa-angle-right {
+        .fa.purple{
+            color: aliceblue;
+            padding: 7px 0px 10px 10px;
+            background-color: rgb(92, 16, 154);
+            width: 30px;height: 30px;
+            font-size: 18px;
+        }
+        span.fa-angle-right {
             font-size: 22px;
             width: 40px;
             height: 40px;
@@ -30,7 +39,7 @@
             width: 100%;
         }
 
-        .fa-angle-right:hover {
+        span.fa-angle-right:hover {
             width: 40px;
             height: 40px;
             font-size: 22px;
@@ -613,18 +622,18 @@
     <!--3rdne-->
     <div class="container-fluid third">
         <div class="row">
-            <div class="col-md-7 pl-0">
+            <div class="col-md-7 pl-0 pr-5">
                 <img src="./imgs/hero-3.webp" class="img-fluid ">
                 <img src="./imgs/3-1.svg" class="img-fluid ">
             </div>
             <div class="col-md-5">
-                <div class="rtext text-white">
+                <div class="rtext text-white w-75 pl-5"  data-aos="fade-up">
                     <h3 class="rad-mixed-media-and-text__title">Our culture</h3>
                     <p class="rad-mixed-media-and-text__description">
                         We combine technology with human ingenuity to solve some of the world's biggest challenges. When you work with us, the possibilities are endless.</p>
                         <a href="/in-en/careers" class="rad-button rad-button--tertiary" target="_self" aria-label="Join us" title="Join us">
-                            <div class="rad-button__text">Join us</div>
-                            <div class="dsd" aria-hidden="true"></div>
+                            <div class="text-white h5">Join us <i class="fa fa-angle-right purple mx-2 wow faderight " data-wow-delay=".25s"></i></div>
+                            
                         </a>
                 </div>
             </div>
@@ -1343,6 +1352,7 @@
     <script src="./js/mmain.js"></script>
     <script src="./js/ZoomViewer.js"></script>
     <script src="./js/vertical.js"></script>
+    <script src="./js/aos.js"></script>
 </body>
 
 </html>
