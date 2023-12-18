@@ -1,4 +1,4 @@
-.image-tile0:hover{
+/* .image-tile0:hover{
     background-image: linear-gradient(rgba(255, 255, 255, 0) 0%, rgb(95, 52, 168) 100%), url(./imgs/img1.jpeg)!important;
 }
 .image-tile1:hover{
@@ -9,26 +9,13 @@
 }
 .image-tile3:hover{
     background-image: linear-gradient(rgba(0, 0, 0, 0) 0%, rgb(95, 52, 168) 100%), url(./imgs/img4.jpeg)!important;
-}
-.reason-belief-panel.activated .reason-belief-image-tile:hover{
-    background-image: none;
-}
-@media screen and (min-width:768px){
-    .rtext p{
-        font-size: 1.5rem;
-    }
-}
-@media screen and (min-width:992px){
-.rtext{
-    position: absolute;
-    bottom: 12%;
-}}
-.rtext h3{
-    font-size: 2.5rem;
-    line-height: 1.2;
-}
-div.third{
-background-color: black ;
+} */
+#expand {
+    /* width: 100%; */
+    min-width: 10%!important;
+    max-width: 100%!important;
+    min-height: 400px;
+    will-change: width;
 }
 @font-face {
     font-family: 'Gilroy';
@@ -115,6 +102,49 @@ body {
     margin: 0;
     color: #000000;
 }
+body{background-color: #000;font-family: 'Gilroy';}
+.check-some.action{
+    opacity:1;
+}
+.rec1{
+background-image:url('../imgs/img1.jpeg');
+}
+.rec2{
+    background-image:url("../imgs/img2.jpeg");
+}
+.rec3{
+    background-image:url("../imgs/img3.jpeg");
+}
+.rec4{
+    background-image:url("../imgs/img4.jpeg");
+}
+.check-some:hover{
+    cursor: pointer;
+}
+.reason-belief-panel.activated .reason-belief-image-tile:hover{
+    background-image: none;
+}
+.clientdiv{background-color: #000;}
+@media screen and (min-width:768px){
+    .rtext p{
+        font-size: 1.5rem;
+    }
+    .rec1,.rec2,.rec3,.rec4{opacity:0.75;}
+}
+@media screen and (min-width:992px){
+.rtext{
+    position: absolute;
+    bottom: 12%;
+}}
+.rtext h3{
+    font-size: 2.5rem;
+    line-height: 1.2;
+}
+div.third{
+background-color: black ;
+}
+
+
 section {
     width: 100%;
     display: block;
@@ -1162,27 +1192,53 @@ audio, canvas, embed, iframe, img, object, svg, video {
     padding: 80px 0;
 }
 /*clients sec*/
-.slider {
-    width: 2179px;
-    margin: auto;
-    overflow: visible;
-}
-.slider ul {
-    display: flex;
-    padding: 0;
-    animation: cambio 10s infinite linear;
-}
-.slider li {
+
+.marqueeStyle {
+    display:inline-block;
+    /* Apply animation to this element */
+    -webkit-animation: scrolling-left1 20s linear infinite;
+    animation: scrolling-left1 20s linear infinite;
+  }
+  
+  .marqueeStyle2 {
+    display:inline-block;
+    /* Apply animation to this element */
+    -webkit-animation: scrolling-left2 20s linear infinite;
+    animation: scrolling-left2 20s linear infinite;
+    animation-delay: 10s;
+  }
+  /* scrolling-left is continuous/repeatly text */
+  @keyframes scrolling-left1 {
+      0% {transform: translateX(100%);
+          -webkit-transform: translateX(100%);}
+        100% {transform: translateX(-100%);
+            -webkit-transform: translateX(-100%);}
+  }
+  @keyframes scrolling-left2 {
+      0% {transform: translateX(0%);
+          -webkit-transform: translateX(0%);}
+        100% {transform: translateX(-200%);
+            -webkit-transform: translateX(-200%);}
+  }
+  
+  @-webkit-keyframes scrolling-left1 {
+      0% {-webkit-transform: translateX(100%);}
+        100% {-webkit-transform: translateX(-100%);}
+  }
+  @-webkit-keyframes scrolling-left2 {
+      0% {-webkit-transform: translateX(0%);}
+        100% {-webkit-transform: translateX(-200%);}
+  }
+  
+  
+  
+.marqueeStyle li,.marqueeStyle2 li {
     padding:0 10px;
     list-style: none;
 }
 .slider img {
     max-width: fit-content !important;
     height: auto !important;
-}
-@keyframes cambio {
-    from {margin-left: 0%}
-    to {margin-left: -100%}
 }
 /*recent*/
 .automated-analysis {
@@ -1279,7 +1335,8 @@ audio, canvas, embed, iframe, img, object, svg, video {
 }}.check-some span{
     transition: .4s ease-in-out;
 }.check-some span {
-    font-size: 0px;
+    font-size: 25px;
+    color: #fff;
     -webkit-transform: rotate(180deg);
     -khtml-transform: rotate(180deg);
     -moz-transform: rotate(180deg);
@@ -1292,8 +1349,8 @@ audio, canvas, embed, iframe, img, object, svg, video {
     align-items: center;
     margin-bottom: 0;
     height: 52%;
-    opacity: 0;
-    visibility: hidden;
+    opacity: 1;
+    visibility: visible;
 }@media (max-width: 1400px){
 .check-some h4 {
     font-size: 26px!important;
@@ -6341,6 +6398,8 @@ li.accordion-item.acc-item-4 .accordion-bg {
     width: 100%;
     height: 400px!important;
     }
+    .check-some h4 {
+        font-size: 24px!important;}
 }
 .carousel-caption div p{
     font-size: 1.2em;
